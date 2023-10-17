@@ -9,7 +9,7 @@ console.log(userSurname);
 const userColor = prompt("Ciao Utente! Qual'è il tuo colore preferito?");
 console.log(userColor);
 
-const resultMessage = (`${userName} ${userSurname} ${userColor} ${21} `);
+const resultMessage = (`${userName} ${userSurname} ${userColor} 21`);
 console.log(resultMessage);
 
 document.getElementById ("result") .innerHTML = resultMessage;
